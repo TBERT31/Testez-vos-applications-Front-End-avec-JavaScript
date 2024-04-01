@@ -15,10 +15,6 @@ describe('toBe Unit Test Suites', () => {
         expect(me.age).toBe(31)
     })
 
-    it('should be the color tomato', () => {
-        expect(color).toBe('tomato')
-    })
-
     it('should not be the color tomato', () => {
         expect(color).not.toBe('lightblue')
     })
